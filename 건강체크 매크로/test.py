@@ -1,6 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
-import lxml
 from selenium import webdriver
 import time
 
