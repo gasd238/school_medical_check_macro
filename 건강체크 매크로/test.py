@@ -14,8 +14,8 @@ driver.find_element_by_xpath('//*[@id="schulNm"]').click()
 time.sleep(3)
 driver.find_element_by_name("schulNm").send_keys("소프트") 
 driver.find_element_by_xpath('//*[@id="btnSrchSchul"]').click()
-driver.find_element_by_name("pName").send_keys("박재홍") #자기 이름
-driver.find_element_by_name("frnoRidno").send_keys("021018") # 생년월일
+driver.find_element_by_name("pName").send_keys("") #자기 이름
+driver.find_element_by_name("frnoRidno").send_keys("") # 생년월일
 driver.find_element_by_xpath('//*[@id="btnConfirm"]').click()
 time.sleep(2)
 driver.find_element_by_xpath('//*[@id="infoForm"]/div/div/table[1]/tbody/tr[2]/td/span/label[1]').click()
